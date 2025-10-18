@@ -1,0 +1,102 @@
+.patient {
+  padding: 2.5rem;
+  /* border: 1px solid rgb(128, 0, 0); */
+  border-radius: 16px;
+  background-color: #1f1f1f;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  font-family: "Segoe UI", sans-serif;
+  color: aliceblue;
+}
+
+.patient__top-container {
+  /* border: 1px solid green; */
+
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.patient__left-container {
+  /* border: 1px solid blue; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5rem;
+}
+
+.patient__right-container {
+  /* border: 1px solid blue; */
+}
+
+.patient__input-container {
+  /* border: 1px solid rgb(0, 255, 26); */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.6rem;
+}
+
+.patient__input-label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #c7c7c7;
+}
+
+.patient__input-text {
+  max-width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+
+  font-size: 1rem;
+}
+
+.patient__input-image {
+  max-width: 100%;
+
+  font-size: 1rem;
+}
+
+.patient__input-button {
+  margin-top: auto;
+
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0078d4;
+
+  color: white;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005fa3;
+}
+
+.patient__bottom-container {
+  /* border: 1px solid goldenrod; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+
+.form__title {
+  font-size: 2rem;
+}
+
+.result__title {
+  font-size: 1.6rem;
+}
